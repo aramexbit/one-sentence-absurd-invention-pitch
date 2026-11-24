@@ -24,6 +24,12 @@ def main() -> int:
     path = os.path.join(output_dir, "entry.txt")
     with open(path, "w", encoding="utf-8", newline="") as f:
         f.write(PITCH)
+    # Read it back: the file the judge sees must be exactly the pitch.
+    with open(path, "r", encoding="utf-8", newline="") as f:
+        if f.read() != PITCH:
+            print("round-trip check failed: file differs from pitch",
+                  file=sys.stderr)
+            return 1
     print(f"wrote {len(PITCH)} characters to {path}")
     return 0
 

@@ -16,6 +16,9 @@ The pitch is 138 characters, inside the gate's 1–220 character window, and
 names the annoyance (brushing too hard), the invention (the complaining
 toothbrush) and its silly mechanism (the strike) in one clean sentence.
 
+Deadline: 26 November 2026, 23:15 WIB. Blind round 1 runs 25 November 2026,
+04:35 WIB.
+
 ## Run it
 
 ```sh
