@@ -1,0 +1,9 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local test output
+out/
+
+# Editor files
+.DS_Store
